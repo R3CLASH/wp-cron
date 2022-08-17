@@ -5,7 +5,8 @@
   
   
   
-  
+  //this is a cron job code to test the function which sends automatic emails
+
   public function gun_uni_add_schedule(){
  			$schedules['my_cron_worker_two'] = array( 'interval' => 120, 'display' => 'My Cron Worker 2' );
  			return $schedules;
